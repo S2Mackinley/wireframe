@@ -1,86 +1,62 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: white;
+font-family: Arial, Helvetica, sans-serif;
 }
-main {
-    width: 960px;
-    margin: 0 auto;
-    flex: 1;
+
+header {
+background-color: #444;
+margin-bottom: 2rem;
 }
 
 nav {
-    width: 100%;
-    background-color: #404040;
-    overflow:auto;
-}
-ul {
-    padding: 0;
-    margin-top: 0px;
-    margin-left: 400px;
-    list-style: none;
-}
-li {
-    float:left;
+padding-top: 2rem;
+padding-bottom: 2rem;
+width: 960px;
+margin: 0 auto;
+display: flex;
 }
 
-.logo img {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 100px;
-}
 nav a {
-    width: 100px;
-    display: block;
-    padding: 50px 15px;
-    text-decoration: none;
-    font-family:Arial;
-    text-align:center;
-    color:black;
+color: #888;
+text-decoration: none;
+margin: 1.5rem;
 }
-nav a:hover {
-    background: purple;
-    transition: 0.5s;
-    text-transform: uppercase;
+
+main {
+width: 960px;
+margin: 0 auto;
 }
-.button {
-    background-color: black;
-    color: seashell;
-    padding: 10px 50px;;
-    
+
+.row {
+margin-top: 30px;
+display: flex;
+gap: 30px;
 }
-.button:hover {
-    background: maroon;
-    transition: 0.5s;
-    text-transform: uppercase;
+
+section.row {
+height: 400px;
 }
-.hero {
-    margin-top: 20px;
+
+h2 {
+font-size: xx-large;
+height: 10%;
 }
-.subbanner {
-    display: flex;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-left: 3px;
-  
+
+p {
+font-size: x-large;
+overflow-y: scroll;
+height: 80%;
+}
+
+button {
+background-color: black;
+color: white;
+width: 50%;
+height: 10%;
+font-size: large;
 }
 
 footer {
-    width: 100%;
-    background:#404040;
-    padding: 50px;
-    margin-top: 20px;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    
-}
- 
-.text {
-overflow: hidden;
-margin: 20px;
-
+height: 8rem;
+background-color: #444;
+margin-top: 2rem;
 }
